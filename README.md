@@ -1,4 +1,5 @@
-# 3D Space Construction (February 2015)
+# 3D Space Construction
+_February 2015_  
 _Course: Introduction to Computer Graphics, Northwestern University, Evanston, IL_
 ## Project A: Generate 3D Objects
 **[View It Here](http://htmlpreview.github.io/?https://github.com/zhtiansweet/3DSpace_EECS351/blob/master/ZhangTianProjA.html)**  
