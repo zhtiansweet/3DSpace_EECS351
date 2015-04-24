@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Child and Flower - Tian Zhang</title>
+  </head>
+  <body align="center" onload="main()" bgcolor=#A9A9A9>
+    <canvas id="webgl" width="450" height="450">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>  
+      <button type="button" onclick="spinDown()">Spin << </button>
+    <button type="button" onclick="runStop()"> Run/Stop</button>
+      <button type="button" onclick="spinUp()">Spin >> </button><br>
+      <button type="button" onClick='reset()'>Reset</button>
+  </p>
+  <hr/>
+  <p align="center">
+  <font size=4 color=#9400D3><b>User Guide</b></font>
+  <font size=2 color=#9400D3><b>(Mac: F1 + fn; Windows: F1)</b></font>
+
+
+  <div style="color:#9400D3; font-size:14px;" id= Help1></div>
+  <div style="color:#9400D3;font-size:14px;" id= Help2></div>
+  <div style="color:#9400D3;font-size:14px;" id= Help3></div>
+  <div style="color:#9400D3;font-size:14px;" id= Help4></div>
+  <br>
+  <font size=1 color=#BA55D3><i>* Still have questions? Contact <a href="mailto:tianzhang2014@u.northwestern.edu">tianzhang2014@u.northwestern.edu</a></font>
+  </p>
+
+    <script src="webgl-utils.js"></script>
+    <script src="webgl-debug.js"></script>
+    <script src="cuon-utils.js"></script>
+    <script src="cuon-matrix-mod.js"></script>
+    <script src="ZhangTianProjA.js"></script>
+  </body>
+</html>
